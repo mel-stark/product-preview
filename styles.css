@@ -4,7 +4,52 @@ body {
     background-color: hsl(30, 38%, 92%)
 }
 
+sup {
+    color: rgb(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: 500;
+    padding-left: 1rem;
+    text-decoration: line-through;
+}
+
+/* classes */
+
+.alignleft {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.alignright {
+    font-size: 10px;
+    color: rgb(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
 .card {
     border-color: hsl(30, 38%, 92%);
     max-width: 700px;
+}
+
+.card-body .desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(0, 0, 0, 0.6);
+    padding-top: 1rem;
+}
+
+.card-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.price {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
