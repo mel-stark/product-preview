@@ -4,6 +4,16 @@ body {
     background-color: hsl(30, 38%, 92%)
 }
 
+button {
+    background-color: hsl(158, 36%, 37%) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    max-width: 17rem;
+}
+
 sup {
     color: rgb(0, 0, 0, 0.6);
     font-family: 'Montserrat', sans-serif;
@@ -22,12 +32,8 @@ sup {
     color: hsl(158, 36%, 37%);
 }
 
-.alignright {
-    font-size: 10px;
-    color: rgb(0, 0, 0, 0.6);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    text-decoration: line-through;
+.btn:hover {
+    background-color: hsl(158, 43%, 21%) !important;
 }
 
 .card {
