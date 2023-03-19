@@ -1,8 +1,10 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
+/* tag styles */
+
+body {
+    background-color: hsl(30, 38%, 92%)
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%); 
+.card {
+    border-color: hsl(30, 38%, 92%);
+    max-width: 700px;
 }
