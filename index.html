@@ -22,15 +22,16 @@
 <body>
 
   <!-- main div -->
-  <div id="main" class="container-fluid d-flex justify-content-center align-items-center mx-auto"
-    style="height: 100vh;">
-    <div class="card mb-3">
+  <div id="main" class="container-fluid d-flex justify-content-center align-items-center mx-auto">
+    <div class="card mb-3 sm-12">
       <div class="row">
-        <div class="col">
+        <div class="pic-card col-md-6">
           <img src="images/image-product-desktop.jpg" class="img-fluid rounded-start card-desktop-image"
-            alt="image of a perfume on the left">
+            alt="image of a perfume on the left"> <!-- image for desktop version -->
+          <img src="images/image-product-mobile.jpg" class="card-mobile-image rounded-top img-fluid"
+            alt="image of a perfume for mobile"> <!-- image for mobile version -->
         </div>
-        <div class="col">
+        <div class="col-md-6">
           <div class="card-body">
             <p class="card-text desc">P E R F U M E</p>
             <h5 class="card-title">Gabrielle Essence Eau De Parfum</h5>
@@ -38,7 +39,8 @@
               Perfumer-Creator for the House of CHANEL.</p>
             <p class="card-text price alignleft">$149.99 <sup>$169.99</sup></p>
             <div class="d-grid gap-2">
-              <button class="btn btn-success btn-lg mx-3" type="button"><img src="images/icon-cart.svg" alt="cart icon"> Add to Cart</button>
+              <button class="btn btn-success btn-lg mx-2" type="button"><img src="images/icon-cart.svg" alt="cart icon">
+                Add to Cart</button>
             </div>
           </div>
         </div>
@@ -50,5 +52,4 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
   </script>
 </body>
-
 </html>

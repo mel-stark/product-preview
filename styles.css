@@ -1,20 +1,40 @@
+/* media query for mobile devices */
+@media only screen and (max-width: 767px) {
+
+    /* hide desktop image and show mobile image */
+    .card-desktop-image {
+        display: none !important;
+    }
+
+    .card-mobile-image {
+        display: block !important;
+   }
+}
+
+/* space for top card */
+@media only screen and (max-width: 375px) {
+    #main {
+        padding-top: 3rem;
+    }
+
+}
+
 /* tag styles */
 
 body {
     background-color: hsl(30, 38%, 92%)
 }
 
-button {
+button {    /* !important to overwrite bootstrap original css */
     background-color: hsl(158, 36%, 37%) !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
     font-size: 14px !important;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
-    max-width: 17rem;
 }
 
-sup {
+sup { /* second price tag */
     color: rgb(0, 0, 0, 0.6);
     font-family: 'Montserrat', sans-serif;
     font-size: small;
@@ -28,7 +48,7 @@ sup {
 .alignleft {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: hsl(158, 36%, 37%);
 }
 
@@ -49,6 +69,14 @@ sup {
     padding-top: 1rem;
 }
 
+.card-desktop-image {
+    display: block;
+}
+
+.card-mobile-image {
+    display: none;
+}
+
 .card-title {
     font-family: 'Fraunces', serif;
     font-weight: 700;
@@ -57,5 +85,11 @@ sup {
 
 .price {
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+/* ids */
+
+#main {
+    height: 100vh;
 }
